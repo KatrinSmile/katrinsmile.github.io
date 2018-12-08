@@ -1,6 +1,19 @@
 /* NAVIGATION */
 
+.page-header {
+ 
+padding-top: 0;
+margin: 0;
+    background-image: url(../img/background/background.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+}
+
+
 .navigation {
+ position: absolute;
   display: flex;
   flex-direction: row; 
   justify-content: flex-start;
@@ -17,20 +30,26 @@
 }
 
 .navigation__link {
+
   text-decoration: none;
   color: inherit;
 }
 
 .navigation--main {
-  width: px;
-  margin-left:
-  margin-right:
-  font-family:
-  font-weight:
-  font-style:
+  width: 380px;
+  margin-left: calc(var(--space) + 100px)
+  margin-right: var(--space)
+  font-family: 'Proxima Nova Cn Bl';
+    font-weight: 900;
+    font-style: normal;
 }
 
+
+
+
+/* SEARCH FORM*/
 .search--form {
+
    display: flex;
    flex-direction: row;
    justify-content: flex-end;

@@ -16,7 +16,7 @@ header,
 footer,
 main,
 section {
-  display: block;
+ 
   padding: 0;
   margin: 0;
 }
