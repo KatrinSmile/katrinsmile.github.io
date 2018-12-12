@@ -1,0 +1,131 @@
+
+.testimonials,
+.slider,
+.slider_wrapper,
+.slider_slide,
+.slider_btn {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.testimonials {
+  
+  display: block;
+  border: none;
+  width: auto;
+  height: 342px;
+    
+}
+.testimonials_title{
+/*padding-top: 40px;*/
+    letter-spacing: 5px; 
+    padding-bottom: 16px;
+}
+
+
+.testimonials_description {
+
+padding-top: 0;
+
+}
+
+
+
+.slider {
+  
+  position: relative;
+
+  border: none;
+  
+}
+
+
+.slider_wrapper {
+  
+  position: relative;
+  background-color: #fff;
+  
+}
+.slider_btn {
+  
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #e0dfdf;
+  opacity: 0.5;
+  font-size: 50px;
+  line-height: 72px;
+  font-weight: 300;
+  text-align: center;
+  top: 70px;
+  cursor: pointer;
+  
+}
+.slider_content {
+  
+  position: relative;
+  padding: 0;
+    padding-top: 20px;
+  list-style: none;
+  text-align: center;
+  display: flex;
+justify-content:space-around;
+    flex-direction: column;
+}
+.testimonials_slogan,
+.author
+{
+font-family: "Proxima Nova Regular", sans-serif;
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+.author{
+    display: block;
+    margin: 0 auto;
+    width: 205px;
+    height: 50px;
+    text-align: left;
+    vertical-align: middle;
+background: url(../img/herp_1.png) no-repeat;
+    padding-left: 55px;
+   padding-top: 5px; 
+   
+}
+.prof {
+color: #cccccc;
+   
+}
+
+.slider_btn::before {
+  
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+  
+}
+
+
+
+.slider_btn-prev {
+  
+  left: 155px;
+  
+}
+
+.slider_btn-next {
+  
+  right: 155px;
+  
+}
+
